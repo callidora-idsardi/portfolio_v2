@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- in mobile set initial zoom level of page to 100%, set site size to equal device width not a larger canvas that is shrunk down-->
+    <meta name="viewport" content="initial-scale=1.0, width=device-width">
+    <title>Callidora Idsardi's Portfolio</title>
+    <!-- Link to reset or normalize before main.css
+    only choose one -->
+    <link rel="stylesheet" href="https://use.typekit.net/ezv5ssh.css">
+    <link href="css/grid.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+</head>
+
+<body>
+    <h1 class="hidden">Callidora Idsardi's Portfolio</h1>
+    <header class="full-width-grid-con" id="main-header">
+        <div class="side-nav mobile-hidden">
+            <a href="#"><img src="images/icon-linkedin.svg" alt="Callidora Idsardi's Linkedin"></a>
+            <p>c_idsardi@fanshaweonline.ca</p>
+        </div>
+
+        <div class="col-start-1 l-col-start- l-col-end-13" id="menu">
+            <div id="burger-button">
+              <div id="bar1" class="bar"></div>
+              <div id="bar2" class="bar"></div>
+              <div id="bar3" class="bar"></div>
+            </div>
+            <nav class="col-span-full l-col-start-4 burger-con" id="burger-con">
+                <h2 class="hidden">Main Navigation</h2>
+                <a href="index.html"><img class="desktop-logo" src="images/logo.svg" alt="Callidora Idsardi's Logo"> </a>
+              <ul class="burger-menu">
+                <li><a class="scroll" href="#introduction">intro</a></li>
+                <li><a class="scroll" href="#">projects</a></li>
+                <li><a class="scroll" href="#about-me">about</a></li>
+                <li><a href="case_studies.html">case study</a></li>
+                <li><a href="contact.html">contact</a></li>
+                <li><a class="resume" href="#">resume</a></li>
+                </ul>
+            </nav>  
+          </div>
+          <div class="burger-bg" id="burger-bg"></div>
+          <div class="col-start-4 m-col-start-12">
+            <img class="mobile-logo" src="images/logo.svg" alt="Callidora Idsardi's Logo">
+          </div>
+    </header>
+    
+    <main>
+        <section class="grid-con">
+            <h2 class="hidden">Welcome</h2>
+            <div class="col-span-full m-col-start-2 m-col-end-12 hero-con">
+            <div id="hello-model">
+            <model-viewer alt="hello bubble letter" loading="eager" disable-zoom src="model/hello.gltf" ar ar-modes="webxr scene-viewer quick-look" interaction-prompt="none" camera-controls poster="model/poster.webp" shadow-intensity="0" autoplay shadow-softness="0" exposure="1.22" tone-mapping="commerce"> </model-viewer>
+            </div>
+
+            <div>
+            <img id="rain-cloud"   
+            sizes="(max-width: 317px) 100vw, 317px"
+            srcset="
+            images/homepage-rain-cloud_c6ixya_c_scale,w_200.png 200w,
+            images/homepage-rain-cloud_c6ixya_c_scale,w_317.png 317w"
+            src="homepage-rain-cloud_c6ixya_c_scale,w_317.png"
+            alt="3D rain cloud">
+            </div>
+            </div>
+        </section>
+    
+
+        <div class="grid-con" id="flower-con">
+            <div class="col-span-full" id="tulips">
+            <img class="flower" src="images/homepage-hero-tulip-1.svg" alt="pink light bulb tulip">
+            <img class="flower" src="images/homepage-hero-tulip-2.svg" alt="dark pink paint brush tulip">
+            <img class="flower" src="images/homepage-hero-tulip-4.svg" alt="dark blue wireframe tulip">
+            <img class="flower" src="images/homepage-hero-tulip-5.svg" alt="light blue code symbol tulip">
+            </div>
+           
+        </div>
+
+        <div id="grid-con">
+            <div id="fence" class="col-span-full">
+            <img
+            sizes="(max-width: 1920px) 100vw, 1920px"
+            srcset="
+            images/homepage_hero_fence_ppcrej_c_scale,w_200.png 200w,
+            images/homepage_hero_fence_ppcrej_c_scale,w_605.png 605w,
+            images/homepage_hero_fence_ppcrej_c_scale,w_896.png 896w,
+            images/homepage_hero_fence_ppcrej_c_scale,w_1108.png 1108w,
+            images/homepage_hero_fence_ppcrej_c_scale,w_1294.png 1294w,
+            images/homepage_hero_fence_ppcrej_c_scale,w_1468.png 1468w,
+            images/homepage_hero_fence_ppcrej_c_scale,w_1649.png 1649w,
+            images/homepage_hero_fence_ppcrej_c_scale,w_1796.png 1796w,
+            images/homepage_hero_fence_ppcrej_c_scale,w_1912.png 1912w,
+            images/homepage_hero_fence_ppcrej_c_scale,w_1920.png 1920w"
+            src="homepage_hero_fence_ppcrej_c_scale,w_1920.png"
+            alt="White fence">
+            </div>
+        </div>
+
+
+        <div class="grid-con section-con">
+            <div id="introduction" class="col-span-full m-col-start-2 m-col-end-9 l-col-start-2 l-col-end-8">
+            <section  id="intro" class="section-theme">
+                <h2 class="text-change">nice to meet you!</h2>
+                <h3>Callidora Idsardi</h3>
+                <p>Front-end Web Developer & Designer</p>
+                <p>I specialize in <span>developing & designing</span> unique and functional
+                    websites, brand identities, and brand marketing materials with a 
+                    strong focus on creativity! I enjoy making visions come to 
+                    life & I'm excited for you to take a look through my portfolio!</p>
+            </section>
+            </div>
+            <div id="smile" class="col-span-full m-col-start-9 m-col-end-12">
+                <img src="images/smile.png" alt="blue smile">
+            </div>
+        </div>
+
+        <div class="grid-con" id="project-gallery">
+            <div id="project-con" class="col-span-full m-col-start-2 m-col-end-7">
+                <img src="images/squeezit-project.jpg" alt="Squeezit">
+                <p>Developed a website & whole new brand refresh for SQUEEZIT, a squeezable juice company made by General Mills and originally marketed in 1985.</p>
+                <a class="resume" href="https://github.com/callidora-idsardi/idsardi_callidora_fip/tree/main">more info</a>
+            </div>
+
+
+            <div id="link-con" class="col-span-full m-col-start-8 m-col-end-12">
+                <!-- Project 'buttons' go here -->
+                <ul>
+                    <li class="project-link" data-team="squeezit">Squeezit</li>
+                    <li class="project-link" data-team="clearbuds">Crystal Clear Buds</li>
+                    <li class="project-link" data-team="seven">Seven</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="grid-con">
+            <div id="pink-cloud" class="col-span-full l-col-start-9">
+                <img
+                sizes="(max-width: 381px) 100vw, 381px"
+                srcset="
+                images/homepage-aboutme-pink-cloud_hnnowf_c_scale,w_200.png 200w,
+                images/homepage-aboutme-pink-cloud_hnnowf_c_scale,w_381.png 381w"
+                src="homepage-aboutme-pink-cloud_hnnowf_c_scale,w_381.png"
+                alt="pink cloud">
+            </div>
+        </div>
+
+        <div id="about-me-con" class="grid-con">
+
+            <section  id="about-me" class="section-theme col-span-full m-col-start-2 m-col-end-12">
+                <h2>about me</h2>
+
+                <p>I am a second year <span>Interactive Media Design Student</span> at <span>Fanshawe College</span>. I've always enjoyed being creative and bringing unique ideas to life, while also finding enjoyment in solving problems at the same time. I really love watching a project develop conceptually all the way to final development. I love learning new things and growing as a person! 
+                </p>
+
+                <h3>On my free time I enjoy:</h3>
+                    <ul>
+                    <li>psychology</li>
+                    <li>creative writing</li>
+                    <li>bullet journaling</li>
+                    <li>cozy games</li>
+                    </ul>
+            </section>
+
+            <section class="tool-con col-span-full m-col-start-2 m-col-end-12">
+                <h2>Coding Tools</h2>
+            <div class="tools">
+                <section class="stagger1">
+                <img class="" src="images/about-me-css3.svg" alt="CSS3 icon">
+                <h3>CSS3</h3>
+                </section>
+                <section class="stagger1">
+                <img src="images/about-me-html5.svg" alt="HTML5 icon">
+                <h3>HTML5</h3>
+                </section>
+                <section class="stagger1">
+                <img src="images/about-me-javascript.svg" alt="JavaScript icon">
+                <h3>JavaScript</h3>
+                </section>
+                <section class="stagger1">
+                <img src="images/about-me-responsive.svg" alt="Responsive Design icon">
+                <h3>Responsive</h3>
+                </section>
+                <section class="stagger1">
+                <img src="images/about-me-sass.svg" alt="SASS icon">
+                <h3>SASS</h3>
+                </section>
+                <section class="stagger1">
+                <img src="images/about-me-github.svg" alt="Github icon">
+                <h3>Github</h3>
+                </section>
+            </div>
+            </section>
+
+            <section id="design-tools" class="tool-con col-span-full m-col-start-2 m-col-end-12">
+                <h2>Design Tools</h2>
+            <div class="tools">
+                <section class="stagger2">
+                <img src="images/about-me-illustrator.svg" alt="Adobe Illustrator">
+                <h3>Illustrator</h3>
+                </section>
+                <section class="stagger2">
+                <img src="images/about-me-photoshop.svg" alt="Adobe Photoshop">
+                <h3>Photoshop</h3>
+                </section>
+                <section class="stagger2">
+                <img src="images/about-me-XD.svg" alt="Adobe XD">
+                <h3>Adobe XD</h3>
+                </section>
+                <section class="stagger2">
+                <img src="images/about-me-aftereffects.svg" alt="Adobe After Effects">
+                <h3>After Effects</h3>
+                </section>
+                <section class="stagger2"> 
+                <img src="images/about-me-premierepro.svg" alt="Adobe Premiere Pro">
+                <h3>Premiere Pro</h3>
+                </section>
+                <section class="stagger2">
+                <img src="images/about-me-cinema4d.svg" alt="Cinema 4D">
+                <h3>Cinema 4D</h3>
+                </section>
+            </div>
+            </section>
+        </div>
+        
+        <div class="grid-con">
+            <div id="blue-cloud" class="col-span-full">
+            <img
+            sizes="(max-width: 289px) 100vw, 289px"
+            srcset="
+            images/homepage-aboutme-blue-cloud_a0retl_c_scale,w_200.png 200w,
+            images/homepage-aboutme-blue-cloud_a0retl_c_scale,w_289.png 289w"
+            src="homepage-aboutme-blue-cloud_a0retl_c_scale,w_289.png"
+            alt="Blue cloud">
+            </div>
+        </div>
+    </main>
+
+    <footer class="full-width-grid-con">
+        <nav class="col-span-full footer-nav">
+          <h2 class="hidden">Main Footer Navigation</h2> 
+          <div class="social-links">
+          <a href="index.html"><img id="footer-logo" src="images/logo.svg" alt="Callidora Idsardi's Logo"></a>
+          <a href="#"><img src="images/icon-linkedin.svg" alt="Linkedin"></a>
+         </div>
+        <div class="mobile-hidden" id="footer-nav-list">
+            <ul>
+                <li><a class="scroll" href="#intro">intro</a></li>
+                <li><a class="scroll" href="#projects">projects</a></li>
+                <li><a class="scroll" href="#about">about</a></li>
+                <li><a href="case_studies.html">case study</a></li>
+                <li><a href="contact.html">contact</a></li>
+                <li><a class="resume" href="#">resume</a></li>
+            </ul>
+        </div>
+        </nav>
+    </footer>
+
+
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.2.0/model-viewer.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.3/gsap.min.js"></script>
+    <!-- ScrollTrigger plugin -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+        <!-- ScrollTo plugin -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollToPlugin.min.js"></script>
+
+    <!-- text plugin -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.3/TextPlugin.min.js"></script>
+
+    <script src="js/projects.js"></script>
+    <script src="js/greensock.js"></script>
+    <script src="js/scroll.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,83 @@
+@use '../abstracts/variables' as v;
+
+html {
+    font-size: 62.5%;
+  }
+
+h2 {
+    font-size: 4.0rem;
+}
+
+h3 {
+    font-size: 2.0rem;
+}
+
+h2, h3 {
+    color: v.$heading-text-color;
+    font-family: v.$heading-font-family;
+    font-weight: v.$heading-font-weight;
+    font-style: v.$heading-font-style;
+}
+
+
+p {
+    font-size: 2.0rem;
+    color:v.$body-text-color;
+    font-family: v.$body-font-family;
+    font-weight: v.$body-font-weight;
+    font-style: v.$body-font-style;
+    line-height: 35px;
+    letter-spacing: 1px;
+}
+
+a {
+    transition: all .4s ease;
+
+    &:hover {
+        opacity: 50%;
+    }
+}
+
+ul li a, ul, a {
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    font-size: 1.6rem;
+    font-family: v.$body-font-family;
+    text-decoration: none;
+    list-style: none;
+    color: v.$medium-blue;
+}
+
+ul li a {
+    transition: all .4s ease;
+
+    &:hover {
+        opacity: 50%;
+    }
+}
+
+li {
+    list-style-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="24.083" height="26.09" viewBox="0 0 24.083 26.09"><path d="M25.892,16.42a4.643,4.643,0,0,0-2.013-8.855,4.723,4.723,0,0,0-2.672.822l.038-.351a4.7,4.7,0,0,0-9.407,0l.038.351A4.669,4.669,0,1,0,7.191,16.42,4.643,4.643,0,0,0,9.2,25.275a4.723,4.723,0,0,0,2.672-.822l-.038.351a4.7,4.7,0,0,0,9.407,0l-.038-.351a4.669,4.669,0,1,0,4.685-8.034Zm-9.351,4.66a4.66,4.66,0,1,1,4.7-4.66A4.684,4.684,0,0,1,16.541,21.08Z" transform-origin="center" transform="scale(0.4) translate(0,14)" fill="%2384aeff"/></svg>');
+}
+
+
+li::marker{
+    font-size: 3.6rem;
+    line-height: .1;
+ }
+@media screen and (min-width: 768px) {
+
+    h2 {
+        font-size: 5.2rem;
+    }
+
+    h3 {
+        font-size: 1.6rem;
+    }
+
+    p {
+        font-size: 1.6rem;
+    }
+
+}
+

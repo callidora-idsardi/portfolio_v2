@@ -1,0 +1,110 @@
+//Mixins
+//Mixins
+
+@mixin shine {
+      background: linear-gradient(to right, rgb(166, 197, 255),#f0ecfa, #ddd0ff);
+      background-size: 200% 200%;
+  
+      &:hover {
+          background-position-x:100%;
+          opacity: 1;
+      }
+}
+
+@mixin box-shadow {
+      box-shadow: 9px 8px 10px -2px rgba(0,0,0,0.1);
+}
+
+@mixin background-blur {
+      backdrop-filter: saturate(100%) blur(50px);
+      background-color: rgba(249, 249, 249, 0.532);
+}
+
+
+//moving gradient 
+@mixin moving-gradient {
+      background: linear-gradient(20deg, #9d7ee14c 20%, #C4DAF2 49%, #ff8acc2b 91%);
+      background-size: 200% 200%;
+      animation: gradient 20s ease infinite;
+
+      @keyframes gradient {
+            0% {
+                  background-position: 0% 100%;
+            }
+
+            50% {
+                  background-position: 100% 0%;
+            }
+
+            100% {
+                  background-position: 0% 100%;
+            }
+      }
+
+}
+
+@mixin draw {
+      stroke-width: 3px;
+      stroke-dasharray: 500;
+      animation: 5s draw;
+      animation-iteration-count: infinite;
+      width: 60px;
+      @keyframes draw{
+      0% {
+            stroke-dashoffset: 500; 
+      }
+      100% {
+            stroke-dashoffset: 0;
+      }
+      }
+}
+
+
+
+
+
+//flex box mixins
+
+@mixin flex-start-center {
+      display: flex;
+      align-items: start;
+      justify-content: center;
+}
+
+@mixin flex-column {
+      display: flex;
+      flex-direction: column;
+}
+
+@mixin flex-center {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+}
+
+@mixin flex-end {
+      display: flex;
+      align-items: end;
+}
+
+@mixin flex-start{
+      display: flex;
+      align-items: start;
+      justify-content: center;
+}
+
+@mixin flex-center-column {
+      @include flex-center;
+      flex-direction: column;
+}
+
+@mixin flex-center-vert {
+      display: flex;
+      align-items: center;
+}
+
+@mixin flex-center-horiz {
+      display: flex;
+      justify-content: center;
+}
+

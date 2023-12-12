@@ -1,0 +1,48 @@
+@use '../abstracts' as a;
+
+
+.footer-nav {
+    @include a.flex-center;
+    text-align: center;
+    background-color: a.$light-blue;
+    padding: 10px;
+    
+}
+
+#footer-logo {
+    width: 50px;
+}
+
+.social-links {
+    margin: 30px;
+    @include a.flex-center;
+    gap: 30px;
+}
+
+
+#footer-nav-list {
+    ul li  {
+        list-style: none;
+        display: inline;
+        padding: 15px;
+     }
+}
+
+
+/* Tablet Size */ 
+
+@media screen and (min-width: 768px) {
+
+
+    
+}
+
+
+// desktop size
+
+@media screen and (min-width: 1200px) {
+
+
+
+
+}

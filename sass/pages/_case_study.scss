@@ -1,0 +1,122 @@
+@use '../abstracts' as a;
+
+#case-study {
+    background: #F9FCFF;
+
+    hr {
+        color: a.$pink;
+        width:50%;
+        margin:0 auto;
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+
+    span {
+        color: a.$medium-blue;
+        font-weight: 600;
+    }
+
+    h2 {
+        font-size: 2.6rem;
+        font-family: a.$body-font-family;
+        margin-bottom: 25px;
+    }
+}
+
+
+#project-desc {
+    @include a.flex-end;
+    align-items: center;
+    border: 2px solid a.$medium-blue;
+    padding: 25px;
+    margin-bottom: 100px;
+}
+
+
+.flower-title {
+    @include a.flex-end;
+}
+
+
+
+.step-desc {
+    text-align: center;
+
+    p {
+        text-align: left;
+    }
+}
+
+.step-title {
+    text-align: center;
+}
+
+.last-img {
+    margin-left: auto;
+    padding: 50px;
+  }
+
+
+
+#low-fi {
+    @include a.flex-center;
+    gap: 50px;
+}
+
+#squeezit-header{
+    text-align: center;
+    
+    h2 {
+        margin: 40px;
+    }
+}
+
+#desc {
+
+h2 {
+    font-size: 2.6rem;
+    margin-top: 100px;
+    margin-bottom: 10px;
+}
+
+p {
+    margin-bottom: 100px;
+}
+
+
+}
+
+.case {
+    p {
+    margin: 20px;
+    margin-bottom: 20px;
+    }
+}
+
+.case-img {
+    text-align: center;
+    margin: 50px;
+
+    img {
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+ .step-title {
+        @include a.flex-end;
+    }
+
+    .step-desc {
+        @include a.flex-center;
+        gap: 100px;
+    }
+
+    .border {
+        border-right: 2px solid a.$medium-blue;
+        border-bottom: 2px solid a.$medium-blue;
+        padding: 10px;
+        padding-left: 5px;
+    }
+
+}

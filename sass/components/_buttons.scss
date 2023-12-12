@@ -1,0 +1,15 @@
+@use '../abstracts' as a;
+
+
+.resume {
+    font-weight: 500;
+    color: black;
+    padding: 5px;
+    border-radius: 50px;
+    @include a.shine;
+    transition: all .6s ease;
+
+   &:hover {
+    @include a.shine;
+   }
+}
