@@ -1,0 +1,62 @@
+@use '../abstracts' as a;
+
+.mobile-hidden {
+    display: none;
+}
+
+
+
+@media screen and (min-width: 768px) {
+
+  }
+
+
+  
+  //Desktop Queries
+  
+  @media screen and (min-width: 1200px) {
+    model-viewer {
+      width: 500px;
+      height: 500px;
+    }
+  
+  .side-nav {
+    top: 0;
+    right: 0;
+    margin-right: 5px;
+    height: 100%;
+    width:30px;
+    position: fixed;
+    z-index: 0;
+    background-color: #d2e8fe92;
+    padding-top: 20px;
+    
+
+    p {
+        color: a.$dark-blue;
+        font-style: normal;
+        font-weight: 500;
+        margin-left: -3px;
+        margin-top: 40px;
+        writing-mode: vertical-lr;
+        text-orientation: mixed;
+    }
+
+    img {
+        margin-top: 150px;
+    }
+}
+
+.mobile-hidden {
+    display: block;
+}
+  
+
+}
+  
+  
+  //Large Desktop Queries
+  @media screen and (min-width: 1920px) {
+  
+  
+  }

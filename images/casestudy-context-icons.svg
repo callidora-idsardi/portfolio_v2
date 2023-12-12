@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="272.664" height="270.395" viewBox="0 0 272.664 270.395">
+  <g id="Group_606" data-name="Group 606" transform="translate(-698.434 -1380.615)">
+    <g id="paint-brush-symbol" transform="translate(805.616 1436.09) rotate(121)">
+      <path id="brush-handle" d="M5.332,0h7.237A5.33,5.33,0,0,1,17.9,5.332V68.637A2.367,2.367,0,0,1,15.533,71H2.368A2.367,2.367,0,0,1,0,68.637V5.332A5.33,5.33,0,0,1,5.332,0Z" transform="translate(15.833 114.729) rotate(-152.19)" fill="#84aeff" stroke="#5f96fe" stroke-miterlimit="10" stroke-width="1"/>
+      <path id="brush" d="M7.1,19.483C21.639,9.576,25.609,3.318,26.686.541A.873.873,0,0,1,28.243.425c7.406,12.07,6.845,55.428-14.091,46.046C.507,40.356-5.946,28.375,7.1,19.483Z" transform="translate(31.602 0)" fill="#84aeff" stroke="#5f96fe" stroke-miterlimit="10" stroke-width="1"/>
+    </g>
+    <g id="Group_58" data-name="Group 58" transform="translate(855.808 1386.213) rotate(17)">
+      <path id="Path_12" data-name="Path 12" d="M0,18.08,37.3,0V12.461L13.328,23.637,37.3,34.948V47.461L0,29.277V18.08Z" transform="translate(0 11.468)" fill="#84aeff" stroke="#5c9bff" stroke-miterlimit="10" stroke-width="1"/>
+      <path id="Path_13" data-name="Path 13" d="M0,62.335,20.639,0H32.316L11.73,62.335Z" transform="translate(45.487 0)" fill="#84aeff" stroke="#5c9bff" stroke-miterlimit="10" stroke-width="1"/>
+      <path id="Path_14" data-name="Path 14" d="M37.3,29.381,0,47.461V34.948L23.971,23.772,0,12.461V0L37.3,18.184v11.2Z" transform="translate(86.024 11.479)" fill="#84aeff" stroke="#5c9bff" stroke-miterlimit="10" stroke-width="1"/>
+    </g>
+    <g id="Group_541" data-name="Group 541" transform="translate(837.583 1540.976) rotate(-30)">
+      <path id="bulb" d="M40.982.8C23.372-3.28,5.522,8.6,1.187,27.271c-3.175,13.672.658,22.613,4.021,30.5,2.528,5.9,4.711,10.988,3.29,17.119L5.678,87.058a9.169,9.169,0,0,0,6.6,11.124l11.615,2.695a9.149,9.149,0,0,0,10.821-7.082l2.862-12.346c1.41-6.068,5.337-9.379,10.309-13.578,6.2-5.233,13.923-11.74,17.182-25.788C69.4,23.407,58.592,4.888,40.992.8h0ZM25.241,95.058,13.627,92.363a3.208,3.208,0,0,1-2.141-3.969l2.2-9.484,17.422,4.042-2.2,9.484a3.206,3.206,0,0,1-3.666,2.622Zm18.8-31.752c-4.47,3.771-9.056,7.646-11.4,13.881l-17.84-4.136c.606-6.6-1.786-12.21-4.1-17.641C7.537,48.015,4.268,40.38,7,28.608,10.6,13.129,25.241,3.269,39.645,6.6S62.853,25.255,59.26,40.724C56.451,52.83,50.142,58.157,44.042,63.3h0Z" transform="translate(0 25.956)" fill="#ffaaf5"/>
+      <line id="bulb-line-3" y1="12.053" x2="14.863" transform="translate(64.127 15.97)" fill="none" stroke="#ffaaf5" stroke-linecap="round" stroke-miterlimit="10" stroke-width="5"/>
+      <line id="bulb-line-2" x1="8.69" y1="17.046" transform="translate(15.695 1.765)" fill="none" stroke="#ffaaf5" stroke-linecap="round" stroke-miterlimit="10" stroke-width="5"/>
+      <line id="bulb-line-1" y1="18.644" x2="4.585" transform="translate(45.943 0)" fill="none" stroke="#ffaaf5" stroke-linecap="round" stroke-miterlimit="10" stroke-width="5"/>
+    </g>
+    <g id="layout-symbol" transform="translate(703.246 1523.346)">
+      <rect id="Rectangle_20" data-name="Rectangle 20" width="104.647" height="104.647" rx="7.17" transform="translate(0)" fill="#fff" stroke="#5c9bff" stroke-miterlimit="10" stroke-width="2"/>
+      <rect id="Rectangle_21" data-name="Rectangle 21" width="96.249" height="7.75" transform="translate(4.272 4.199)" fill="#84aeff" stroke="#84aeff" stroke-miterlimit="10" stroke-width="1"/>
+      <rect id="Rectangle_22" data-name="Rectangle 22" width="39.398" height="39.398" transform="translate(4.115 17.767)" fill="#c4daf2" stroke="#c4daf2" stroke-miterlimit="10" stroke-width="1"/>
+      <rect id="Rectangle_23" data-name="Rectangle 23" width="51.033" height="65.238" transform="translate(49.331 17.767)" fill="#c4daf2" stroke="#c4daf2" stroke-miterlimit="10" stroke-width="1"/>
+      <rect id="Rectangle_24" data-name="Rectangle 24" width="39.398" height="21.318" transform="translate(4.115 64.267)" fill="#ffccfe" stroke="#ffccfe" stroke-miterlimit="10" stroke-width="1"/>
+      <rect id="Rectangle_25" data-name="Rectangle 25" width="96.249" height="7.75" transform="translate(4.115 92.698)" fill="#84aeff" stroke="#84aeff" stroke-miterlimit="10" stroke-width="1"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,43 @@
+@use '../abstracts' as a;
+
+  
+  model-viewer {
+    width: 200px;
+    height: 200px;
+    
+    &::part(default-progress-bar) {
+        height: 3px;
+        background-color: a.$pink;
+    }
+  }
+
+// Tablet Queries
+
+@media screen and (min-width: 768px) {
+  model-viewer {
+    width: 400px;
+    height: 400px;
+  }
+
+}
+
+
+//Desktop Queries
+
+@media screen and (min-width: 1200px) {
+  model-viewer {
+    width: 500px;
+    height: 500px;
+  }
+
+}
+
+
+
+
+
+//Large Desktop Queries
+@media screen and (min-width: 1920px) {
+
+
+}

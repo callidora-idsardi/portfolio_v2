@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="108.834" height="132.285" viewBox="0 0 108.834 132.285">
+  <g id="paint-brush-symbol" transform="translate(127.543 65.928) rotate(121)">
+    <path id="brush-handle" d="M6.364,0H15a6.361,6.361,0,0,1,6.364,6.364v75.56a2.825,2.825,0,0,1-2.826,2.826H2.826A2.825,2.825,0,0,1,0,81.924V6.364A6.361,6.361,0,0,1,6.364,0Z" transform="translate(18.898 136.64) rotate(-152.19)" fill="#84aeff" stroke="#5f96fe" stroke-miterlimit="10" stroke-width="1"/>
+    <path id="brush" d="M118.248,67.026C135.6,55.2,140.336,47.733,141.622,44.418a1.042,1.042,0,0,1,1.859-.138c8.839,14.407,8.17,66.157-16.818,54.959C110.376,91.94,102.673,77.64,118.248,67.026Z" transform="translate(-72.051 -43.772)" fill="#84aeff" stroke="#5f96fe" stroke-miterlimit="10" stroke-width="1"/>
+  </g>
+</svg>
